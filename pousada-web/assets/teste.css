@@ -1,0 +1,43 @@
+body, p, a {
+    /*background-image: url("img/img1.jpg");*/
+    /*min-height: 500px;*/
+    background-color: salmon;
+    /*background-size: cover;*/
+    background-repeat: repeat-y;
+    /*background-attachment: fixed;*/
+    color: aliceblue;
+    text-align: center;
+    background-position: bottom center;
+    /*display: none;*/
+    /*visibility: hidden;*/
+}
+
+div {
+    border: whitesmoke solid 2px;
+    margin: 2px; 
+    padding: 10px;
+    
+}
+/*
+img {
+    width: 100%;
+    opacity: 80%;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 6px 2px 6px 6px black;
+}
+
+.rodape img {
+    width: 10%;
+}
+
+.rodape div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+
+}
+*/
