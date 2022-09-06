@@ -1,0 +1,83 @@
+body {
+    background-color: darkgrey;
+    font-family: sans-serif;
+    font-size: 10pt;
+    font-weight: 900;
+    
+}
+
+p {
+    font-weight: 100;
+    text-align: justify;
+}
+
+.container {
+    
+    background-color: royalblue;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 200px;
+    border-radius: 20px;
+    position: relative;
+    box-sizing: border-box;
+    margin: 20px auto;
+    
+    
+    
+    
+}
+
+.lDir {
+    border: none;
+    border-radius: 90px 0px 0px 20px;
+    
+    background-color: white;
+    text-decoration: none;
+    width: 47%;
+    height: 200px;
+    text-align: center;
+    position: absolute;
+    bottom: -200px;
+    right: 10px;
+    padding: 15px;
+}
+
+.lEsq {
+    border: none;
+    border-radius: 0px 90px 20px 0px;
+    
+    background-color: white;
+    text-decoration: none;
+    width: 47%;
+    height: 200px;
+    text-align: center;
+    position: absolute;
+    bottom: -200px;
+    left: 10px;
+    padding: 15px;
+}
+
+.textoPrincipal {
+    
+    
+    color: black;
+    font-weight: 800;
+    font-size: 18px;
+    
+
+    width: 90%;
+    height: 200px;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    
+    padding: 0px;
+}
+
+@media only screen and (max-width: 950px) {
+    p {
+        font-size: 10pt;
+    }
+}
