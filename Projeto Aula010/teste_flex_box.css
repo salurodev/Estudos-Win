@@ -1,0 +1,77 @@
+body {
+    margin: 0px;
+    font-family: Helvetica, sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: #6C7A89;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+p#enunciado {
+    text-transform: uppercase;
+    font-size: .8rem;
+    color: slategray;
+    font-weight: bolder;
+}
+
+.caixa {
+    border: 0;
+    background-color: rgba(192, 192, 192, 0.342);
+    height: 2.5rem;
+    width: 50%;
+    display: block;
+    margin: .4rem;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.caixa:hover {
+    background-color: rgba(192, 192, 192, 0.712);
+    
+}
+
+.botao {
+    border: 0;
+    border-radius: 1rem;
+    display: block;
+    height: 2.5rem;
+    width: 50%;
+    margin: .4rem;
+    background-color: lightslategrey;
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+
+.botao:hover {
+    background-color: rgba(119, 136, 153, 0.589);
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(135, 182, 235);
+    font-size: .8rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+a:hover {
+    color: rgba(255, 99, 71, 0.678);
+}
