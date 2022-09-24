@@ -1,0 +1,23 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container_topo {
+    position: fixed;
+    width: 100%;
+    max-width: 1024px;
+    
+    
+}
+
+.topo {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.conteudo {
+    
+}
