@@ -1,14 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 
 <head>
+
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" href="style.css">
     <title>Página de teste</title>
 </head>
 
 <body>
-    <header>
+    <header class="containerTopo">
         <h1>Cursos de programação</h1>
-    </header>
+    
 
     <figure>
 
@@ -16,38 +19,54 @@
 
         <figcaption>Poster de Halo</figcaption>
     </figure>
+</header>
     <main>
         <section id="ds" class="jh">
-            <h2>Java</h2>
-            <ol type="i">
-                <li>texto 01</li>
-                <li>texto 02</li>
-                <li>texto 03</li>
-                <li>texto 04</li>
-            </ol>
-            <article>
-                <h3>Curso de JavaServer Faces</h3>
-                <p>Neste curso você aprenderá a desenvolver aplicações com JSF.</p>
-            </article>
-            <article>
-                <h3>Curso de Spring</h3>
-                <p>Neste curso você aprenderá utilizar o framework Spring.</p>
-            </article>
+            <div>
+                <h2>Java</h2>
+                <div class="curso01content">
+                    <article>
+                        <ol type="i">
+                            <li>texto 01</li>
+                            <li>texto 02</li>
+                            <li>texto 03</li>
+                            <li>texto 04</li>
+                        </ol>
+                    </article>
+                    <article>
+                        <h3>Curso de JavaServer Faces</h3>
+                        <p>Neste curso você aprenderá a desenvolver aplicações com JSF.</p>
+                    </article>
+                    <article>
+                        <h3>Curso de Spring</h3>
+                        <p>Neste curso você aprenderá utilizar o framework Spring.</p>
+                    </article>
+                </div>
+            </div>
         </section>
         <section>
-            <h2>PHP</h2>
-            <article>
-                <h3>Curso básico de PHP</h3>
-                <p>Conheça a linguagem de programação PHP.</p>
-            </article>
-            <article>
-                <h3>Curso de PDO</h3>
-                <p>Aprenda a acessar bancos de dados com PHP Data Objects.</p>
-            </article>
+            <div>
+                <h2>PHP</h2>
+                <div class="curso02content">
+                    <article>
+                        <h3>Curso básico de PHP</h3>
+                        <p>Conheça a linguagem de programação PHP.</p>
+                    </article>
+                    <article>
+                        <h3>Curso de PDO</h3>
+                        <p>Aprenda a acessar bancos de dados com PHP Data Objects.</p>
+                    </article>
+                </div>
+            </div>
         </section>
     </main>
-    <footer>
-        <p>MinhaEmpresa.com.br. Todos os direitos reservados.</p>
+    <footer id="onda">
+        <div class="ondabox"><img class="onda" src="Rectangle 1.svg" alt="onda"></div>
+
+
+        <div class="rodape">
+            <p>MinhaEmpresa.com.br. Todos os direitos reservados.</p>
+        </div>
     </footer>
 </body>
 
