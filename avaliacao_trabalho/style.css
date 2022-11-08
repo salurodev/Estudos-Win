@@ -1,0 +1,23 @@
+ol {
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ol li:nth-of-type(odd) {
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+ol li:nth-of-type(even) {
+    background-color: darkolivegreen;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+span {
+    color: brown;
+    font-weight: 900;
+    background-color: aliceblue;
+    border-radius: 4px;
+}
