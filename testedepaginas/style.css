@@ -82,3 +82,49 @@ section article:nth-last-of-type(odd) {
     color: #D9D9D9;
     padding: 10px;
 }
+
+/* INICIO REGRAS PARA TODOS OS DISPOSITIVOS */
+INSIRA REGRAS CSS AQUI!
+/* FIM REGRAS PARA TODOS OS DISPOSITIVOS*/
+
+/* INICIO REGRAS PARA DISPOSITIVOS DE IMPRESSÃO */
+@media print {
+  INSIRA REGRAS CSS AQUI!
+}
+/* FIM REGRAS PARA DISPOSITIVOS DE IMPRESSÃO */
+
+/* INICIO REGRAS PARA DISPOSITIVOS COM LARGURA MÍNIMA DE 320 PIXELS. POR EXEMPLO: SMARTHPHONES */
+@media screen and (min-width: 320px) {
+    body {
+        background-color: black;
+      }
+    
+      section {
+        background-color: blue;
+      } 
+}
+/* FIM REGRAS PARA DISPOSITIVOS COM LARGURA MÍNIMA DE 320 PIXELS. POR EXEMPLO: SMARTHPHONES */
+
+/* INICIO REGRAS PARA DISPOSITIVOS COM LARGURA MÍNIMA DE 768 PIXELS. POR EXEMPLO: TABLETS */
+@media screen and (min-width: 768px) {
+    body {
+        background-color: darkorange;
+      }
+    
+      section {
+        background-color: white;
+      }
+}
+/* FIM REGRAS PARA DISPOSITIVOS COM LARGURA MÍNIMA DE 768 PIXELS. POR EXEMPLO: TABLETS */
+
+/* INICIO REGRAS PARA DISPOSITIVOS COM LARGURA MÍNIMA DE 1024 PIXELS. POR EXEMPLO: COMPUTADORES DESKTOP E NOTEBOOKS */
+@media screen and (min-width: 1024px) {
+    body {
+        background-color: white;
+      }
+    
+      section {
+        background-color: white;
+      }
+}
+/* FIM REGRAS PARA DISPOSITIVOS COM LARGURA MÍNIMA DE 1024 PIXELS. POR EXEMPLO: COMPUTADORES DESKTOP E NOTEBOOKS */
