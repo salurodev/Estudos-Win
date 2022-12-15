@@ -1,6 +1,6 @@
 def ValorLista():
     for i in range(1,5):
-        lista.append(int(input(f'digite o valor da sua prova {i}')))
+        lista.append(int(input(f'digite o valor da sua nota fiscal {i}')))
         
 def Media():
     s=0
