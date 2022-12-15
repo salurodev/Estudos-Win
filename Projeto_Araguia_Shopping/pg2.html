@@ -1,0 +1,260 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Araguaia Shopping</title>
+    <!--<script type='text/javascript'>/*<![CDATA[*/var Z=window.location;if(Z.protocol!="https:"){Z.href="https:"+Z.href.substring(Z.protocol.length)};/*]]>*/</script>-->
+    <meta name="author" content="Madnezz" />
+    <meta name="description"
+        content="o Araguaia Shopping hoje se encontra entre os principais centros de compras de Goiânia" />
+    <meta name="keywords" content="cinema, Goiânia,  Goiás, lojas, shopping" />
+    <meta name="viewport" content="width=500,user-scalable=no">
+    <link rel="shortcut icon" href="img/icon/favicon.png?v=1.1" />
+
+    <link rel="stylesheet" href="css/default.css?v=2.5" type="text/css" media="screen" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="slider/dist/css/swiper.min.css">
+    <link rel="stylesheet" href="css/hamburgers.min.css">
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script src='//ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js'></script>
+    <script type="text/javascript" src="js/jquery.scrollTo.min.js"></script>
+    <script type="text/javascript" src="js/lightbox.js"></script>
+    <script type="text/javascript" src="js/banner.js?v=2.2"></script>
+    <script type="text/javascript" src="js/mask.js"></script>
+    <script type="text/javascript" src="js/functions.js?v=1.4"></script>
+    <script type="text/javascript" src="js/default.js?v=1.8"></script>
+    <script type="text/javascript">
+        var pagina = 'cliente';
+        var shopping_id = 263;
+        var shopping_token = "sIHK1lsW5awpC66WDT3VldWi6sb5O4s2";
+        var shopping_coordenada = [-16.659437, -49.259717];
+        var novidade_id = '';
+        var loja_id = '';
+        var shopping = '';
+        var cinema_id = '';
+        var busca = '';
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-104061189-1']);
+        _gaq.push(['_trackPageview']);
+        (function () {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+    <script id="navegg" type="text/javascript" src="https://tag.navdmp.com/tm49665.js"></script>
+    <script src="https://www.ipchat.com.br/sistema/widget/D7QHKO5TU9ZWXBR21AGSMFYI40EL6VCNP83J20190108153644.js"
+        async></script>
+</head>
+
+<body id="">
+    <div id="fb-root"></div>
+    <script>(function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.0";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <div class="fundo_busca">
+        <div class="fechar"></div>
+        <div class="box_busca">
+            <form action="busca.asp" method="get">
+                <input type="text" name="busca" id="busca" value="" placeholder="Busca">
+                <input type="submit" class="bt_busca" value="">
+                </input>
+            </form>
+        </div>
+    </div>
+
+    <div class="header">
+        <div class="content">
+            <div class="logo">
+                <a href="index.asp"><img src="img/logo.png?v=1.1"></a>
+            </div>
+
+            <div class="menu_mobile"></div>
+
+            <div class="menu">
+                <ul>
+                    <li class="submenu">
+                        <a href="#">Shopping</a>
+                        <ul>
+                            <li><a href="shopping.asp">Shopping</a></li>
+                            <li id="googletrackerpdf"><a
+                                    href="https://sal.madnezz.com.br/api/site/upload/arquivo/202210171002541.pdf"
+                                    target="blank">Código de Conduta do Cliente</a></li>
+                        </ul>
+                    </li>
+                    <a href="vitrine.asp">
+                        <li>Vitrine</li>
+                    </a>
+                    <li class="submenu">
+                        <a href="#">Lojas</a>
+                        <ul>
+                            <li><a href="loja.asp">Lojas</a></li>
+                            <li><a href="alimentacao.asp">Alimentação</a></li>
+                            <li id="googletrackerpdf"><a
+                                    href="https://sal.madnezz.com.br/api/site/upload/arquivo/202210171001311.pdf"
+                                    target="blank">Diretório de Lojas</a></li>
+                        </ul>
+                    </li>
+                    <a href="novidade.asp">
+                        <li>Novidades</li>
+                    </a>
+                    <!--a href="evento.asp"><li>Eventos</li></a-->
+                    <a href="servico.asp">
+                        <li>Serviços</li>
+                    </a>
+                    <li class="submenu">
+                        <a href="#">Contato</a>
+                        <ul>
+                            <li><a href="contato.asp">Atendimento ao Cliente</a></li>
+                            <li><a href="comercial.asp">Comercialização</a></li>
+                            <li><a href="oportunidade.asp">Trabalhe Conosco</a></li>
+                            <li><a href="imprensa.asp">Imprensa</a></li>
+                            <!--<li><a href="cadastro.asp">Cadastre-se</a></li>-->
+                        </ul>
+                    </li>
+                    <li class="submenu">
+                        <a href="#">Lojistas</a>
+                        <ul>
+                            <li><a href="https://v3.madnezz.com.br/" target="_blank">SAL</a></li>
+                            <li><a href="http://controlshop3.sistemaaudit.com.br/" target="_blank">Informações de
+                                    Vendas</a></li>
+                        </ul>
+                    </li>
+                    <a href="cliente.asp">
+                        <li class="last">Cliente</li>
+                    </a>
+                </ul>
+            </div>
+
+            <div class="sociais">
+                <a href="#"><img src="img/icon/bt_busca.png" class="bt_busca"></a>
+                <a href="https://www.instagram.com/araguaiashopping" target="_blank" class="instagram"><img
+                        src="img/icon/instagram.png"></a>
+                <a href="https://www.facebook.com/AraguaiaShopping" target="_blank" class="facebook"><img
+                        src="img/icon/facebook.png"></a>
+                <a href="https://www.youtube.com/channel/UCs6jkyqP8pxuLeLiWCmsgRQ" target="_blank" class="youtube"><img
+                        src="img/icon/youtube.png" /></a>
+                <div class="bt_menu">
+                    <img src="img/icon/bt_menu.png">
+                </div>
+            </div>
+        </div>
+        <div class="horario">
+            Horários de Funcionamento: Segunda a sábado: das 08:30h às 20:30h | Domingo: das 08:30h às 16:30h
+        </div>
+    </div>
+
+    <script>
+        $('.bt_busca').on('click', function () {
+            $('.fundo_busca .fechar').show();
+            $('.fundo_busca').animate({ 'height': '100%', 'opacity': '1' }, 400, 'easeOutCubic');
+            $('.fundo_busca form').delay(300).animate({ 'opacity': '1', 'margin-top': '20%' }, 500, 'easeOutCubic');
+        });
+        $('.fundo_busca .fechar').on('click', function () {
+            $('.fundo_busca .fechar').hide();
+            $('.fundo_busca').css({ 'height': '0', 'opacity': '0' });
+            $('.fundo_busca form').css({ 'opacity': '0', 'margin-top': '30%' });
+        });
+    </script>
+
+    <!-- CONTADOR DE CLICKS para sub menus Diretorio de Lojas e Código do Cliente -->
+    <script>
+        $(document).on('click', '#googletrackerpdf', function () {
+            _gaq.push(["_trackPageview", ($(this).find('a').text()) + " - link PDF"]);
+        });
+    </script>
+
+
+
+
+
+    <style>
+        #cliente [role="main"] {
+            width: 600px;
+            max-width: 100%;
+            margin: 100px auto 0;
+        }
+    </style>
+
+    <div id="cliente">
+        <div class="banner_secundaria" style="background-image:url(img/banner_shopping_2.jpg);">
+            <div class="titulo">
+                <h1>Cliente</h1>
+                <p>Araguaia Shopping, mais que um Shopping, seu ponto de encontro</p>
+            </div>
+        </div>
+
+        <div class="conteudo">
+            <div role="main" id="npf-julho-duplicado-3d99a3458cdb88bbb2a4"></div>
+            <script type="text/javascript"
+                src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js"></script>
+            <script
+                type="text/javascript"> new RDStationForms('npf-julho-duplicado-3d99a3458cdb88bbb2a4', 'UA-104061189-1').createForm();</script>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="content">
+            <div class="box_1">
+                <div class="left">
+                    <h4>Como chegar</h4>
+                    <p>Rua 44, nº 399 - Setor Central - Goiânia/GO<br />CEP: 74.063-010</p>
+                </div>
+                <div class="right">
+                    <img src="img/whatsapp_footer.png" />
+                </div>
+            </div>
+
+            <div class="box_2">
+                <div class="left">
+                    <h4>Horários de Funcionamento</h4>
+                    <div class="left">
+                        <p>Segunda a sábado: das 08:30h às 20:30h<br>
+                            Domingo: das 08:30h às 16:30h<br>
+                    </div>
+                    <!-- <div class="right">
+                            <p>Praça de Alimentação:<br />
+                            Todos os dias das 10h às 22h<br>
+                        </div> -->
+                    <div class="clear"></div>
+                </div>
+                <div class="right">
+                    <div class="left">
+                        <h4>Siga nossas redes</h4>
+                        <a href="https://www.instagram.com/araguaiashopping" target="_blank" class="mr15"><img
+                                src="img/icon/instagram.png" /></a>
+                        <a href="https://www.facebook.com/AraguaiaShopping" target="_blank" class="mr15"><img
+                                src="img/icon/facebook.png" /></a>
+                        <a href="https://www.youtube.com/channel/UCs6jkyqP8pxuLeLiWCmsgRQ" target="_blank"><img
+                                src="img/icon/youtube.png" /></a>
+                    </div>
+                    <div class="right">
+                        <h4>Telefones Úteis</h4>
+                        <p>SAC: (62) 3922-2040<br />Recepção: (62) 4013-4250</p><br /><br />
+
+                        <a href="https://madnezz.com.br/" target="_blank" class="madnezz">Design by madnezz</a>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" async
+        src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/60ba160b-35ff-4f0e-bbef-b182f78454a1-loader.js"></script>
+</body>
+
+</html>
